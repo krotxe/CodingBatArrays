@@ -64,6 +64,8 @@ public class VentanaCodingBat extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 public boolean has23(int[] nums) {
+    //Este carismático método comprueba si el array "nums" contien los números "2" o "3" en alguna de sus dos posiciones.
+    //Si es así devuelve true, en el caso contrario devuelve false.
   if (nums[0]==2 ||nums[0]==3 ||nums[1]==2 ||nums[1]==3 ){
           return true;}else
       return false;
@@ -78,7 +80,11 @@ public boolean has23(int[] nums) {
 
 
     private void jButton1MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton1MousePressed
-    int listaNumeros[] = {3,5};
+    //Este botón, magnífico en todos los aspectos, le pasa al método "has23" el array "listaNumeros" que acaba de crear con dos números de ejemplo
+    //y muestra en pantalla un brillante texto en concordancia con lo que devuelva "hash23".
+        
+        
+        int listaNumeros[] = {3,5};
 has23(listaNumeros);
 if (has23(listaNumeros)==true){
     jLabel1.setText("VERDADEIRO");
