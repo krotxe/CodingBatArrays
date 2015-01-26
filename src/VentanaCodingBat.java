@@ -78,7 +78,7 @@ public boolean has23(int[] nums) {
 
 
     private void jButton1MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton1MousePressed
-    int listaNumeros[] = {1,5};
+    int listaNumeros[] = {3,5};
 has23(listaNumeros);
 if (has23(listaNumeros)==true){
     jLabel1.setText("VERDADEIRO");
